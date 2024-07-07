@@ -22,7 +22,6 @@ button {
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
-    padding: 13px 30px;
     border-radius: 5px;
     border: none;
     transition: 0.2s;
@@ -31,7 +30,13 @@ button {
 .conteiner {
     width: 95vw;
     margin: 0 auto;
+    max-width: 1220px;
 }
+
+
+/* header section */
+
+
 
 .header__inner {
     display: flex;
@@ -67,6 +72,7 @@ button {
 .menu-btn{
     align-items: center;
     color: #006633;
+    padding: 13px 30px;
 }
 .menu-btn:hover {
     background-color: #7FB298;
@@ -122,5 +128,51 @@ button {
     width: 5px;
     height: 5px;
     border-radius: 5px;
+}
 
+
+
+/* banner section */
+
+
+
+.banner__inner {
+    margin-top: 15px;
+    background-image: url(/imades/banner__bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 662px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.banner__inner__content {
+    height: 662px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.banner__text {
+    color: white;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.banner__title {
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 79.2px;
+    color: white;
+}
+
+.banner__btn {
+    padding: 13px 30px;
+    background-color: #006633;
+    color:white;
+    text-transform: uppercase;
 }
