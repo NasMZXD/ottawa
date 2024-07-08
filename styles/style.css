@@ -7,6 +7,7 @@
 
 body {
     font-family: "Fira Sans", sans-serif;
+    overflow-x:hidden;
 }
 
 a {
@@ -31,6 +32,10 @@ button {
     width: 95vw;
     margin: 0 auto;
     max-width: 1220px;
+}
+
+.color-green {
+    color: #006633;
 }
 
 
@@ -135,6 +140,16 @@ button {
 /* banner section */
 
 
+.banner-lineal {
+    width: 100vw;
+    height: 75px;
+    background-color: rgba(0, 102, 51, 0.6);
+    display: flex;
+    position: absolute;
+    top: 470px;
+    z-index: 1;
+}
+
 
 .banner__inner {
     margin-top: 15px;
@@ -154,6 +169,7 @@ button {
     gap: 40px;
     align-items: center;
     text-align: center;
+
 }
 
 .banner__text {
@@ -168,6 +184,7 @@ button {
     font-size: 66px;
     line-height: 79.2px;
     color: white;
+    z-index: 2;
 }
 
 .banner__btn {
@@ -176,3 +193,218 @@ button {
     color:white;
     text-transform: uppercase;
 }
+
+.banner__btn:hover {
+    background-color: rgb(127, 178, 152);
+}
+
+
+.banner__videous {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.banner__item__lineal {
+    display: flex;
+    height: 100%;
+    width: 5px;
+    background-color: #006633;
+}
+
+
+.banner__item {
+    background-color: white;
+    display: flex;
+    width: 558px;
+    height: 210px;
+    box-shadow: 0px 5px 10px 2px rgb(149, 149, 149);
+    position: relative;
+    bottom: 100px;
+}
+
+.banner__item__content {
+    max-width: 288px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item__content__img {
+    position: absolute;
+    margin-top: 65px;
+    left: 10px;
+}
+
+.banner__img-mark {
+    position: relative;
+    bottom: 130px;
+    left: 78px;
+    width: 50px;
+    height: 50px;
+    transition: .2s;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 2px 5px rgb(255, 255, 255,0.6)
+}
+
+.banner__img-mark:hover {
+    background-color: rgba(127, 178, 152, 0.6);
+    box-shadow: 0px 0px 2px 5px rgba(127, 178, 152, 0.6)
+}
+
+
+/* who section */
+
+
+
+/* .who__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+
+
+
+
+
+.who-t {
+    display: flex;
+    justify-content: space-between;
+}
+
+.who-t__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 752px;
+    height: 243px;
+
+}
+
+.who-t__content__comment {
+    display: flex;
+    justify-content: space-between;
+    width: 208px;
+    align-items: center;
+}
+
+.who-t__content__comment-text {
+    color: #006633;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.who-t__lineal {
+    display: flex;
+    background-color: #006633;
+    width: 100px;
+    height: 2px;
+}
+
+.who-t__content__text {
+    font-size: 20px;
+}
+
+.who-t__content__title {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+
+
+.who-b {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.who-b__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.who-b__info {
+    width: 752px;
+}
+
+.who-b__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.who-b__item {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.who-b__info__text {
+    margin-left: 10px;
+}
+
+
+.who-b__prof {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.who-b__prof__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    z-index: 2;
+}
+
+
+.prof__item-img {
+    width: 150px;
+    height: 150px;
+}
+
+.who-b__prof-years {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 1vw;
+    z-index: 3;
+}
+.who-b__number {
+    font-size: 150px;
+    font-weight: 700;
+    color: #006633;
+    
+}
+
+.who-b__number__text {
+    font-style: 18px;
+    font-weight: 600;
+    position: relative;
+    bottom: 35px;
+}
+
+.who-b__img {
+    z-index: 3;
+}
+
+.who__lineal {
+    width: 100vw;
+    height: 75px;
+    background-color: rgba(0, 102, 51, 0.1);
+    display: flex;
+    position: relative;
+    bottom: 145px;
+    z-index: 1;
+}
+
+
+
+
